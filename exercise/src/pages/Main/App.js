@@ -9,6 +9,8 @@ import MiniComputer from '../../assets/products/image_mini_pc_divoom.png';
 import intelI9 from '../../assets/products/image_i9_10900.jpg';
 import Flipper from '../../assets/products/image_flipper_zero.jpeg';
 
+import Footer from '../../components/footer';
+
 
 function App() {
   return (
@@ -20,39 +22,52 @@ function App() {
       <div className='section_main'>
         <div className='card_product'>
           <img src={Rtx_3050} alt='Placa de video RTX 3050'/>
+          <h3>Placa de video RTX 3050</h3>
+          <button>BUY ITEM</button>
 
         </div>
         <div className='card_product'>
           <img src={Monitor} alt='Monitor UltraWide LG'/>
-
+          <h3>UltraWide LG</h3>
+          <button>BUY ITEM</button>
         </div>
         <div className='card_product'>
           <img src={Teclado} alt='Teclado Mecanico'/>
+          <h3>Mecanic keyboard</h3>
+          <button>BUY ITEM</button>
         </div>
         <div className='card_product'>
           <img src={SomSony} alt='Caixa de som Sony'/>
+          <h3>Theater Speaker Sony</h3>
+          <button>BUY ITEM</button>
         </div>
         <div className='card_product'>
           <img src={PlacaMae} alt='Placa de video RTX 3050'/>
-
+          <h3>Optane Intel Memory</h3>
+          <button>BUY ITEM</button>
         </div>
         <div className='card_product'>
           <img src={Mouse} alt='Placa de video RTX 3050'/>
-
+          <h3>Mouse Darau A950</h3>
+          <button>BUY ITEM</button>
         </div>
         <div className='card_product'>
           <img src={MiniComputer} alt='Placa de video RTX 3050'/>
-
+          <h3>Mini Computer Divoom</h3>
+          <button>BUY ITEM</button>
         </div>
         <div className='card_product'>
           <img src={intelI9} alt='Placa de video RTX 3050'/>
-
+          <h3>CPU Intel i9 10th</h3>
+          <button>BUY ITEM</button>
         </div>
         <div className='card_product'>
           <img src={Flipper} alt='Placa de video RTX 3050'/>  
-
+          <h3>Flipper Zero</h3>
+          <button>BUY ITEM</button>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

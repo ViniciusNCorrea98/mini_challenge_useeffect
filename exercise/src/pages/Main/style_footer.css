@@ -1,0 +1,28 @@
+.div_footer{
+    display: flex;
+    height: 300px;
+    width: 100vw;
+    margin-top: 30px;
+    background-color: rgb(16, 34, 43);
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.div_footer_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    margin: 5px;
+    width: 50%;
+    height: 100%;
+}
+.div_footer_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+    margin: 4px;
+}
